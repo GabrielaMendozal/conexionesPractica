@@ -1,0 +1,184 @@
+body{
+    font-family: 'Balsamiq Sans';
+    }
+/*Aqui empieza barra de navegacion*/
+.nav {
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    width: 100%; /* for styling purposes */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 50px;
+}
+.nav-title {
+    margin-left: 200px;
+}
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-right: 200px;
+}
+.active{font-weight: bold;}
+
+/*Aqui empieza cuadro superior izquierdo*/
+.contenedorPrincipal{
+    border: 2px solid rgb(160, 160, 160);
+    width: 650px;
+    margin: 20px 10px;
+}
+.header{
+    background-color: #17a2b8;
+    height: 70px;
+}
+.header > img{
+    width: 80px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+.tarjetaInformacion{
+    margin-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.iconoUbicacion {
+    width: 10px;
+    padding: 5px;
+}
+.iconoConfiguracion{
+    width: 15px;
+    padding: 5px;
+}
+.ciudad, .linkEditar{
+    vertical-align: 7px;
+}
+.skillset{
+    margin-bottom: 5px;
+}
+.tituloUniversitario{
+    margin-top: 0;
+}
+
+/*Aqui empieza cuadro inferior izquierdo*/
+.contenedor2{
+    border: 2px solid rgb(160, 160, 160);
+    width: 650px;
+    height: 300px;
+    margin: 20px 10px;
+}
+.header2{
+    background-color: rgb(41, 40, 40);
+    height: 40px;
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+}
+.tarjetaInformacion2{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    }
+
+/*Aqui empieza cuadro superior derecho*/
+.contenedor3{
+    border: 2px solid rgb(160, 160, 160);
+    width: 250px;
+    margin: 20px 10px;
+}
+.header3{
+    background-color: rgb(41, 40, 40);
+    height: 40px;
+    text-align-last: center;
+    color: white;
+    padding-top: 15px ;
+    }
+.tarjetaInformacion3{
+    padding-bottom: 20px;
+    }
+.tarjetaInformacion3a{
+    list-style: none;
+    padding: 0 20px;
+    }    
+.circle{
+    background-color: rgb(160, 160, 160);
+    color: rgb(41, 40, 40);
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    width: 25px;
+    margin: 0px 10px;
+    display: inline;
+}
+/*Aqui empieza cuadro inferior derecho*/
+.contenedor4{
+    border: 2px solid rgb(160, 160, 160);
+    width: 250px;
+    margin: 20px 10px;
+    justify-content: space-around;
+}
+.header4{
+    background-color: rgb(41, 40, 40);
+    height: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 15px ;
+    }
+.circle1{
+    background-color: rgb(160, 160, 160);
+    color: rgb(41, 40, 40);
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    width: 50px;
+    margin: 0px 10px;
+    display: inline;
+}
+.tarjetaInformacion4{
+    padding: 0;
+    }
+.tarjetaInformacion4a{
+    list-style: none;
+    padding: 0 20px;
+}
+.piedepagina4 {
+    border: 1px solid rgb(160, 160, 160);
+    padding: 15px;
+}
+.iconoUser, .iconoaccept, .iconoclose{width: 25px; margin: 2px;}
+
+/*Aqui comienza box*/
+.contenedor{display: flex;
+flex-direction: row;
+justify-content:center;
+}
+.tarjetaInformacion4a > li
+{display: flex;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.tarjetaInformacion3a > li
+{display: flex;
+justify-content: space-between;
+padding: 0;}
+
+.Nombre{flex: 1;
+margin: 5px 10px;}

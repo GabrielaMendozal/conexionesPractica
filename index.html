@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Island+Moments&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- navigation -->
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+        </ul>
+        <button class="btn">Sign Out</button>
+    </div>
+    <div class="contenedor">
+        <div class="contenedorI">
+            <div class="contenedorPrincipal">
+                <div class="header">
+                    <img src="./icons/user-circle.png" alt="Imagen default de usuario"/>
+                </div>
+                <div class="tarjetaInformacion">
+                    <h2 class="nombre" id="usuarioname">
+                        Jane Doe
+                    </h2>
+                    <div class="ubicacion">
+                        <img class="iconoUbicacion" src="./icons/map-marker.png" alt="Simbolo de ubicacion"/> 
+                        <span class="ciudad">
+                            Seattle
+                        </span>
+                    </div>
+                    <div class="skills">
+                        <p class="skillset">
+                            Developer | Engineer | Problem Solver
+                        </p>
+                        <p class="tituloUniversitario">
+                            Master of shadows and the Internet!
+                        </p>
+                    </div>
+                    <div class="editarPerfil">
+                        <img class="iconoConfiguracion" src="./icons/gear.png" src="Icono de configuracion"/> 
+                        <a class="linkEditar" href="#" onclick="editar('#usuarioname')">
+                            edit profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor2">
+                <div class="header2">
+                    <p class="texto2">Education</p>
+                </div>
+                <div class="tarjetaInformacion2">
+                    <p class="centroEstudio">
+                        Coding Dojo - Fukl Stack Bootcamp
+                    </p>
+                    <p class="periododetiempo">
+                        Dic 2019 - Mar 2020
+                    </p>
+                    <p class="ProgramasEstudio">
+                        Triple black belt in Python, MERN, anc C# ...
+                    </p>
+                </div>    
+            </div>
+        </div>
+        <div class="contenedorD">
+            <div class="contenedor3">
+                <div class="header3">
+                    <h4 class="circle" id="solicitud">2</h4>
+                    <span class="texto">Connection Requests</span>
+                </div>
+                <div class="tarjetaInformacion3">
+                    <div class="logo3">
+                        <ul class="tarjetaInformacion3a">
+                            <li class="c3 arriba" id="perfil1">
+                                <img class="iconoUser" src="./icons/user-circle.png" alt="icono de usuario"/> 
+                                <span class="Nombre">
+                                    Todd E
+                                </span>
+                                <img class="iconoaccept" src="./icons/accept-circle.png" alt="check" onclick="accept('#perfil1')">
+                                <img class="iconoclose" src="./icons/close-circle.png" alt="incorrect" onclick="ignore('#perfil1')">
+                            </li>
+                            <li class="c3 abajo" id="perfil2">
+                                <img class="iconoUser" src="./icons/user-circle.png" alt="icono de usuario"/> 
+                                <span class="Nombre">
+                                    Phill K
+                                </span>
+                                <img class="iconoaccept" src="./icons/accept-circle.png" alt="check" onclick="accept('#perfil2')">
+                                <img class="iconoclose" src="./icons/close-circle.png" alt="incorrect" onclick="ignore('#perfil2')">
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+            <div class="contenedor4">
+                <div class="header4">
+                    <h4 class="circle1" id="conectados">500</h4>
+                    <span class="texto4">Your connections</span>
+                </div>
+                <div class="tarjetaInformacion4">
+                    <ul class="tarjetaInformacion4a">
+                        <li>
+                            <img class="iconoUser" src="./icons/user-circle.png" alt="icono de usuario"/> 
+                            <span class="Nombre">
+                                Adrien D
+                            </span>
+                        </li>
+                        <li>
+                            <img class="iconoUser" src="./icons/user-circle.png" alt="icono de usuario"/> 
+                            <span class="Nombre">
+                                Ann J
+                            </span>
+                        </li>
+                        <li>
+                            <img class="iconoUser" src="./icons/user-circle.png" alt="icono de usuario"/> 
+                            <span class="Nombre">
+                                Alayne T
+                            </span>
+                        </li>
+                        <li>
+                            <img class="iconoUser" src="./icons/user-circle.png" alt="icono de usuario"/> 
+                            <span class="Nombre">
+                                Arry Y
+                            </span>  
+                        </li>
+                    </ul>
+                </div>
+                <div class="piedepagina4">
+                    <a class="linkEditar" href="#">
+                            View More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./js/index.js"></script>
+</body>
+</html>
